@@ -1,5 +1,6 @@
 # Ask Cerebro
 
+
 ## What ?
 
 Cerebro is an API-like endpoint that returns information about a package.
@@ -11,9 +12,10 @@ It's aimed for people who like to compile from sources as it always return sourc
 You feed him `disks` and it tells you everything about them.
 
 
+
 ## Why ?
 
-I got tired having to check for the latest version of Nginx, Redis, etc and switching variables in Chef, Fabric and wherever you can think. 
+I got tired having to check for the latest version of Nginx, Redis, etc and switching variables in Chef, Fabric, Capistrano and wherever you can think. 
 
 For example, looking at the [Logstash cookbook](https://github.com/lusis/chef-logstash) from Lusis and contributors:
 
@@ -22,7 +24,7 @@ For example, looking at the [Logstash cookbook](https://github.com/lusis/chef-lo
 Logstash agent `['version']` can now be easily updated when a new release is available.
 
 
-I needed something easy, fast and easy to maintain and was using it personally with restricted IPs. A friend asked me if he could used it as well, so I just removed all IPs restrictions and put it on Github.
+I needed something easy, fast, easy to maintain and was using it personally with restricted IPs. A friend asked me if he could used it as well, so I just removed all IPs restrictions and put it on Github.
 
 
 
@@ -134,7 +136,7 @@ Once I merge your disk, you should be able to ask Cerebro about it within couple
 	
 	
 
-## Need Help or Want to Contribute?
+## Need Help or Want to Contribute ?
 
 All contributions are welcome: ideas, patches, documentation, bug reports, complaints, and even something you drew up on a napkin.
 
@@ -142,7 +144,7 @@ It is more important to me that you are able to contribute and get help if you n
 
 That said, some basic guidelines, which you are free to ignore :)
 
-- Have a problem you want **askcerebro** to solve for you? You can email me personally (**anthony@taskrabbit.com**)
+- Have a problem you want **askcerebro** to solve for you ? You can email me personally (**anthony@taskrabbit.com**)
 - Have an idea or a feature request? File a ticket on Github, or email me personally (**anthony@taskrabbit.com**) if that is more comfortable.
 - If you think you found a bug, it probably is a bug. Please file a ticket on Github.
 - If you want to add new `disks`, best way is to fork this repo and send me a pull request. If you don't know git, I also accept diff(1) formatted patches - whatever is most comfortable for you.
