@@ -149,7 +149,6 @@ That said, some basic guidelines, which you are free to ignore :)
 - If you think you found a bug, it probably is a bug. Please file a ticket on Github.
 - If you want to add new `disks`, best way is to fork this repo and send me a pull request. If you don't know git, I also accept diff(1) formatted patches - whatever is most comfortable for you.
 
-**Programming is not a required skill. Whatever you've seen about open source with maintainers or community members saying "send patches or die" -  you will not see that here.
-**
+**Programming is not a required skill. Whatever you've seen about open source with maintainers or community members saying "send patches or die" -  you will not see that here.**
 
 This part was borrowed from [John Vincent](https://github.com/lusis) and [Jordan Sissel](https://github.com/jordansissel). I strongly stand behind this state of mind.
