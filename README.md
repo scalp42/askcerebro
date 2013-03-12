@@ -144,8 +144,8 @@ It is more important to me that you are able to contribute and get help if you n
 
 That said, some basic guidelines, which you are free to ignore :)
 
-- Have a problem you want **askcerebro** to solve for you ? You can email me personally (**anthony@taskrabbit.com**)
-- Have an idea or a feature request? File a ticket on Github, or email me personally (**anthony@taskrabbit.com**) if that is more comfortable.
+- Have a problem you want **askcerebro** to solve for you ? You can email me personally (anthony@taskrabbit.com)
+- Have an idea or a feature request? File a ticket on Github, or email me personally (anthony@taskrabbit.com) if that is more comfortable.
 - If you think you found a bug, it probably is a bug. Please file a ticket on Github.
 - If you want to add new `disks`, best way is to fork this repo and send me a pull request. If you don't know git, I also accept diff(1) formatted patches - whatever is most comfortable for you.
 
