@@ -39,7 +39,7 @@ Just make a call to `www.askcerebro.com/package` where `package` is the package 
 
 Here is an example:
 
-	$> curl -i www.askcerebro.com/v1/redis
+	$> curl -i www.askcerebro.com/redis
 	
 Answer should be 200 OK if found with a **JSON** answer:
 
@@ -59,7 +59,7 @@ Answer should be 200 OK if found with a **JSON** answer:
 	
 If a package is not available in Cerebro (for example `perl`), you'll get a 404 HTTP NOT FOUND with an "not available." answer:
 
-	$> curl -i www.askcerebro.com/v1/perl
+	$> curl -i www.askcerebro.com/perl
 		
 	HTTP/1.1 404 Not Found
 	Date: Tue, 12 Mar 2013 18:51:35 GMT
@@ -89,7 +89,7 @@ Currently only `version` and `url` are supported.
 Here is an example:
 
 
-	$> curl -i www.askcerebro.com/v1/mongodb/nightly/url
+	$> curl -i www.askcerebro.com/mongodb/nightly/url
 	
 	HTTP/1.1 200 OK
 	Date: Tue, 12 Mar 2013 19:02:25 GMT
