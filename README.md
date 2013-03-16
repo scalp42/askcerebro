@@ -63,7 +63,7 @@ Answer should be 200 OK if found with a **JSON** answer:
 			}
 	}
 	
-If a package is not available in Cerebro (for example `perl`), you'll get a 404 HTTP NOT FOUND with an "not available." answer:
+If a package is not available in Cerebro (for example `perl`), you'll get a 404 HTTP NOT FOUND with an "NA" answer:
 
 	$> curl -i www.askcerebro.com/perl
 		
@@ -73,7 +73,7 @@ If a package is not available in Cerebro (for example `perl`), you'll get a 404 
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 
-	not available.
+	NA
 	
 If you're trying to hit an endpoint unknown to Cerebro, you'll get a 404 HTTP NOT FOUND answer:
 
