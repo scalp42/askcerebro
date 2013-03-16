@@ -50,11 +50,17 @@ Answer should be 200 OK if found with a **JSON** answer:
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 
-	{"redis":
-		{"releases":["stable","legacy"],
-		 "stable":{"version":"2.6.10","url":"http://redis.googlecode.com/files/redis-2.6.10.tar.gz"},
-		 "legacy":{"version":"2.4.18","url":"http://redis.googlecode.com/files/redis-2.4.18.tar.gz"}
-		 }
+	{"redis":{
+	"releases":["stable","legacy"],
+		"stable":{
+			"version":"2.6.11",
+			"url":"http://redis.googlecode.com/files/redis-2.6.11.tar.gz",
+			"md5":"99d4d79ca7021899001b9c737097bf88"},
+		"legacy":{
+			"version":"2.4.18",
+			"url":"http://redis.googlecode.com/files/redis-2.4.18.tar.gz",
+			"md5":"13b9955a924be15b5fe67f970a5386b5"}
+			}
 	}
 	
 If a package is not available in Cerebro (for example `perl`), you'll get a 404 HTTP NOT FOUND with an "not available." answer:
@@ -102,7 +108,7 @@ Here is an example:
 
 And another:
 
-	curl -i http://localhost:8080/redis/legacy/version
+	curl -i www.askcerebro.com/redis/legacy/version
 	
 	HTTP/1.1 200 OK
 	Date: Tue, 12 Mar 2013 19:03:35 GMT
@@ -125,12 +131,15 @@ Just add another `disk` with the following YAML structure:
   		stable:
     		version: 1.2.7
    			url: http://example.com/download/stable-1.2.7.tar.gz
+   			md5: abcdefghijkl124345
   		development:
     		version: 1.3.14
     		url: http://github.example.com/download/latest.tar.gz
+    		md5: abcdefghijkl124345
   		legacy:
     		version: 1.0.15
     		url: http://example.com/download/legacy-1.0.15.tar.gz
+    		md5: abcdefghijkl124345
     		
 Once I merge your disk, you should be able to ask Cerebro about it within couple mins.
 	
