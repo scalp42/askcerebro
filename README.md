@@ -86,11 +86,11 @@ If you're trying to hit an endpoint unknown to Cerebro, you'll get a 404 HTTP NO
 	Connection: keep-alive
 	
 
-#### HUMAN API (because I could not come up with a better name)
+#### HUMAN API
 
-You can directly get the **plain text** answer about a package, depending of the type release.
+You can directly get the **plain text** answer about a package, depending of the release type.
 
-Currently only `version` and `url` are supported.
+Currently only `version`, `url` and `md5` are supported.
 
 Here is an example:
 
