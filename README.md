@@ -142,7 +142,33 @@ Just add another `disk` with the following YAML structure:
     		md5: abcdefghijkl124345
     		
 Once I merge your disk, you should be able to ask Cerebro about it within couple mins.
-	
+
+
+## How to use it with Chef ?
+
+You could technically use it for rolling upgrades (be careful), with something like this (YMMV):
+
+```ruby
+require "net/http"
+require "uri"
+require "json"
+require 'chef/log'
+
+begin
+  redis_info = URI.parse("http://www.askcerebro.com/redis")
+  info = JSON.parse(Net::HTTP.get_response(redis_info).body)
+  redis_version = info['redis']['stable']['version']
+  default[:redis][:server][:version] = redis_version.chomp
+rescue => e
+  Chef::Log.info("Cerebro is down, error is #{e}")
+  Chef::Log.info("Falling back to default attribute version.")
+  default[:redis][:server][:version] = "2.6.10"
+end
+
+default[:redis][:server][:addr]    = "127.0.0.1"
+```	
+
+Please also look at the [ruby example](https://gist.github.com/scalp42/5164178).
 	
 
 ## Need Help or Want to Contribute ?
