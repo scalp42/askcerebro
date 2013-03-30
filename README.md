@@ -53,8 +53,8 @@ Answer should be 200 OK if found with a **JSON** answer:
 	{"redis":{
 	"releases":["stable","legacy"],
 		"stable":{
-			"version":"2.6.11",
-			"url":"http://redis.googlecode.com/files/redis-2.6.11.tar.gz",
+			"version":"2.6.12",
+			"url":"http://redis.googlecode.com/files/redis-2.6.12.tar.gz",
 			"md5":"99d4d79ca7021899001b9c737097bf88"},
 		"legacy":{
 			"version":"2.4.18",
@@ -179,8 +179,8 @@ It is more important to me that you are able to contribute and get help if you n
 
 That said, some basic guidelines, which you are free to ignore :)
 
-- Have a problem you want **askcerebro** to solve for you ? You can email me personally (anthony@taskrabbit.com)
-- Have an idea or a feature request? File a ticket on Github, or email me personally (anthony@taskrabbit.com) if that is more comfortable.
+- Have a problem you want **askcerebro** to solve for you ? You can email me personally (scalisia@gmail.com)
+- Have an idea or a feature request? File a ticket on Github, or email me personally (scalisia@gmail.com) if that is more comfortable.
 - If you think you found a bug, it probably is a bug. Please file a ticket on Github.
 - If you want to add new `disks`, best way is to fork this repo and send me a pull request. If you don't know git, I also accept diff(1) formatted patches - whatever is most comfortable for you.
 
