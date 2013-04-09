@@ -7,9 +7,9 @@ Cerebro is an API-like endpoint that returns information about a package.
 
 Releases type, versions and urls are returned as a JSON so it can be used for rolling upgrades of common software packages.
 
-It's aimed for people who like to compile from sources as it always return source.tar.gz of packages.
+It's aimed for people who like to compile from sources as it always returns the source.tar.gz of packages.
 
-You feed him `disks` and it tells you everything about them.
+You feed it `disks` and it tells you everything about them.
 
 
 
