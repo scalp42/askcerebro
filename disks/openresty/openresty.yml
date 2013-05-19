@@ -1,14 +1,14 @@
 openresty:
   releases: ['stable', 'development', 'legacy']
   stable:
+    version: 1.2.7.8
+    url: http://openresty.org/download/ngx_openresty-1.2.7.8.tar.gz
+    md5: de97a895aecf341933909758688769d2
+  development:
+    version: 1.2.8.3
+    url: http://openresty.org/download/ngx_openresty-1.2.8.3.tar.gz
+    md5: ab24495a3202bc2fd86ff5a218eda934
+  legacy:
     version: 1.2.7.6
     url: http://openresty.org/download/ngx_openresty-1.2.7.6.tar.gz
     md5: bd1e49af52a050415ea3e3c56be16f8d
-  development:
-    version: 1.2.8.1
-    url: http://openresty.org/download/ngx_openresty-1.2.8.1.tar.gz
-    md5: f8e41729cd77da8324665eb1f8c505d4
-  legacy:
-    version: 1.2.6.6
-    url: http://openresty.org/download/ngx_openresty-1.2.6.6.tar.gz
-    md5: 19f04c65e93f8d38e3590db7c7123f6b
