@@ -50,17 +50,25 @@ Answer should be 200 OK if found with a **JSON** answer:
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 
-	{"redis":{
-	"releases":["stable","legacy"],
-		"stable":{
-			"version":"2.6.12",
-			"url":"http://redis.googlecode.com/files/redis-2.6.12.tar.gz",
-			"md5":"99d4d79ca7021899001b9c737097bf88"},
-		"legacy":{
-			"version":"2.4.18",
-			"url":"http://redis.googlecode.com/files/redis-2.4.18.tar.gz",
-			"md5":"13b9955a924be15b5fe67f970a5386b5"}
-			}
+	{
+	  "redis": {
+	    "releases": [
+	      "stable",
+	      "legacy"
+	    ],
+	    "stable": {
+	      "md5": "c4be422013905c64af18b1ef140de21f",
+	      "sha256": "3b9439636c58ca06bee538a0f7298e02a33fcf98b8fa845c0b0cf8567751e948",
+	      "url": "http://redis.googlecode.com/files/redis-2.6.13.tar.gz",
+	      "version": "2.6.13"
+	    },
+	    "legacy": {
+	      "md5": "13b9955a924be15b5fe67f970a5386b5",
+	      "sha256": "d71b6372f42fcbdc77a9601f1dd6a029ed57f7f77ac3b18bfed8670fb8c74697",
+	      "url": "http://redis.googlecode.com/files/redis-2.4.18.tar.gz",
+	      "version": "2.4.18"
+	    }
+	  }
 	}
 	
 If a package is not available in Cerebro (for example `perl`), you'll get a 404 HTTP NOT FOUND with an "NA" answer:
@@ -90,7 +98,7 @@ If you're trying to hit an endpoint unknown to Cerebro, you'll get a 404 HTTP NO
 
 You can directly get the **plain text** answer about a package, depending of the release type.
 
-Currently only `version`, `url` and `md5` are supported.
+Currently only `version`, `url`, `md5` and `sha256` are supported.
 
 Here is an example:
 
@@ -132,14 +140,17 @@ Just add another `disk` with the following YAML structure:
     		version: 1.2.7
    			url: http://example.com/download/stable-1.2.7.tar.gz
    			md5: abcdefghijkl124345
+   			sha256: d71b6372f42fcbdc77a9601f1dd6a029ed57f7f77ac3b18bfed8670fb8c74697
   		development:
     		version: 1.3.14
     		url: http://github.example.com/download/latest.tar.gz
     		md5: abcdefghijkl124345
+    		sha256: d71b6372f42fcbdc77a9601f1dd6a029ed57f7f77ac3b18bfed8670fb8c74697
   		legacy:
     		version: 1.0.15
     		url: http://example.com/download/legacy-1.0.15.tar.gz
     		md5: abcdefghijkl124345
+    		sha256: d71b6372f42fcbdc77a9601f1dd6a029ed57f7f77ac3b18bfed8670fb8c74697
     		
 Once I merge your disk, you should be able to ask Cerebro about it within couple mins.
 
@@ -186,4 +197,3 @@ That said, some basic guidelines, which you are free to ignore :)
 
 **Programming is not a required skill. Whatever you've seen about open source with maintainers or community members saying "send patches or die" -  you will not see that here.**
 
-This part was borrowed from [John Vincent](https://github.com/lusis) and [Jordan Sissel](https://github.com/jordansissel). I strongly stand behind this state of mind.
