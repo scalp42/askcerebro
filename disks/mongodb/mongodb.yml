@@ -1,12 +1,17 @@
 mongodb:
-  releases: ['stable', 'nightly']
+  releases: ['stable', 'devel', 'nightly']
   stable:
     version: 2.4.5
     url: http://downloads.mongodb.org/src/mongodb-src-r2.4.5.tar.gz
     md5: de629f865449d3c75b767054fde27549
     sha256: b576cbc2c813144b8a8774a7232b78bd0b005e2e6fa7428e7fa1e426c7a28705
+  devel:
+    version: 2.4.6-rc1
+    url: http://downloads.mongodb.org/src/mongodb-src-r2.4.6-rc1.tar.gz
+    md5: 528914f36e390d7e611e853794e52183
+    sha256: 3e1b88bbff7e526dd1dff6527ec7d899596e2ff24d123546c2b388db948c5c7d
   nightly:
     version:
-    url: http://github.com/mongodb/mongo/tarball/v2.4-latest
+    url: https://codeload.github.com/mongodb/mongo/legacy.tar.gz/v2.4
     md5: null
     sha256: null
