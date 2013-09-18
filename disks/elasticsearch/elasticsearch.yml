@@ -1,15 +1,10 @@
 elasticsearch:
-  releases: ['stable', 'legacy', 'master']
+  releases: ['stable', 'master']
   stable:
-    version: 0.90.2
-    url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.2.tar.gz
-    md5: d8acd11c5565552b81294efb6126b5ad
-    sha256: 22ebe4cd49015d118b5a5f7179688337ff48fe96caad161dc0ab70553d9b95c2
-  legacy:
-    version: 0.20.6
-    url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.20.6.tar.gz
-    md5: 69b8f8350ca8fa3645a8251da25be418
-    sha256: 534b9fdb2fa9031f539b19cc4cfc1345bbbb013a285a21105ca87348b96b3389
+    version: 0.90.5
+    url: https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.5.tar.gz
+    md5: 1f3b8ea5468554d47a3862aba2c36176
+    sha256: f14ff217039b5c398a9256b68f46a90093e0a1e54e89f94ee6a2ee7de557bd6d
   master:
     version: null
     url: https://github.com/elasticsearch/elasticsearch/archive/master.zip
