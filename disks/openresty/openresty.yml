@@ -1,15 +1,15 @@
 openresty:
-  releases: ['stable', 'development', 'legacy']
+  releases: ['stable', 'mainline', 'legacy']
   stable:
     version: 1.2.8.6
     url: http://openresty.org/download/ngx_openresty-1.2.8.6.tar.gz
     md5: 9b811560d2b83b614a10c73fa1922670
     sha256: a0320b52b55b8b25efd4980888ff8f9ca284a77e5554a240371a50b25602e517
-  development:
-    version: 1.4.2.1
-    url: http://openresty.org/download/ngx_openresty-1.4.2.1.tar.gz
-    md5: 2756e35a146e56b549fb745fd9e39d0e
-    sha256: 6e13766c1dd24166f948d53caba75634b2c36222868ff9525af13125827d3d4a
+  mainline:
+    version: 1.4.2.7
+    url: http://openresty.org/download/ngx_openresty-1.4.2.7.tar.gz
+    md5: e8f72ba6c4e602fca669605a938d35e6
+    sha256: a74d3b921213234eac7841162576eebc2c6de061a030e5c60bd26cf6f5615a2c
   legacy:
     version: 1.2.7.8
     url: http://openresty.org/download/ngx_openresty-1.2.7.8.tar.gz
