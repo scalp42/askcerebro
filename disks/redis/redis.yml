@@ -1,12 +1,12 @@
 redis:
-  releases: ['stable', 'legacy']
+  releases: ['stable', 'rc']
   stable:
-    version: 2.6.14
-    url: http://redis.googlecode.com/files/redis-2.6.14.tar.gz
-    md5: 02e0c06e953413017ff64862953e2756
-    sha256: fdf61c693e5c4908b4bb44c428d4a2b7568f05566c144c58fdf19c5cb12a9caf
-  legacy:
-    version: 2.4.18
-    url: http://redis.googlecode.com/files/redis-2.4.18.tar.gz
-    md5: 13b9955a924be15b5fe67f970a5386b5
-    sha256: d71b6372f42fcbdc77a9601f1dd6a029ed57f7f77ac3b18bfed8670fb8c74697
+    version: 2.6.16
+    url: http://download.redis.io/releases/redis-2.6.16.tar.gz
+    md5: ca1b81bd56fe0c5e2c8ec443a95c908d
+    sha256: 81490918dcf82d124b36e48b0a9911bfba3f13abba04d8c89820324eff7df03a
+  rc:
+    version: 2.8.0-rc4
+    url: http://download.redis.io/releases/redis-2.8.0-rc4.tar.gz
+    md5: d3cc702f7db6eee014b3aab950c9c3c1
+    sha256: 3d30432ba551697e9d43f11451d2f9ef00cfca89da534c53ccf2ceb0655df77c
