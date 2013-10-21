@@ -169,14 +169,14 @@ begin
   redis_info = URI.parse("http://www.askcerebro.com/redis")
   info = JSON.parse(Net::HTTP.get_response(redis_info).body)
   redis_version = info['redis']['stable']['version']
-  default[:redis][:server][:version] = redis_version.chomp
+  node.default[:redis][:server][:version] = redis_version.chomp
 rescue => e
   Chef::Log.info("Cerebro is down, error is #{e}")
   Chef::Log.info("Falling back to default attribute version.")
-  default[:redis][:server][:version] = "2.6.10"
+  node.default[:redis][:server][:version] = "2.6.10"
 end
 
-default[:redis][:server][:addr]    = "127.0.0.1"
+node.default[:redis][:server][:addr]    = "127.0.0.1"
 ```	
 
 Please also look at the [ruby example](https://gist.github.com/scalp42/5164178).
