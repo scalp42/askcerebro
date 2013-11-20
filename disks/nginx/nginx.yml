@@ -1,15 +1,15 @@
 nginx:
   releases: ['stable', 'mainline', 'legacy']
   stable:
-    version: 1.4.3
-    url: http://nginx.org/download/nginx-1.4.3.tar.gz
-    md5: 4740dad2f0ed7f5fa16e8caaa8a9438e
-    sha256: ae123885c923a6c3f5bab0a8b7296ef21c4fdf6087834667ebbc16338177de84
+    version: 1.4.4
+    url: http://nginx.org/download/nginx-1.4.4.tar.gz
+    md5: 5dfaba1cbeae9087f3949860a02caa9f
+    sha256: 7c989a58e5408c9593da0bebcd0e4ffc3d892d1316ba5042ddb0be5b0b4102b9
   mainline:
-    version: 1.5.6
-    url: http://nginx.org/download/nginx-1.5.6.tar.gz
-    md5: 376227934b82ecaca39784990ca4e8ff
-    sha256: 39c4dc40831f633fae7638173c0744bc731a8a1b66f476ad75a9b882fc291ca9
+    version: 1.5.7
+    url: http://nginx.org/download/nginx-1.5.7.tar.gz
+    md5: 39d4f5262435f3e11dafb4a02ce7f5dd
+    sha256: 96a5ac866323e4fef502e774d098b445dd898e44cdaea6afa68a68ab5de2e7f1
   legacy:
     version: 1.2.9
     url: http://nginx.org/download/nginx-1.2.9.tar.gz
