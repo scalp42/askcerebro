@@ -1,0 +1,12 @@
+etcd:
+  releases: ['stable', 'rc']
+  stable:
+    version: 0.1.2
+    url: https://github.com/coreos/etcd/archive/v0.1.2.tar.gz
+    md5: 4d0fb3fd2fc3aa051b47ff5d8fb151cf
+    sha256: c18e417a1bf805dbaa6d7958620143a710525a1fc13026cf2e3034f300db621f
+  rc:
+    version: 0.2.0-rc1
+    url: https://github.com/coreos/etcd/archive/v0.2.0-rc1.tar.gz
+    md5: 0ff43d3fa2359285cdba824c004bff1d
+    sha256: fc43c29bbdf0955537e9c53be78a13cf2fa057941be2bea5969610366df7b2a3
