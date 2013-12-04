@@ -197,3 +197,6 @@ That said, some basic guidelines, which you are free to ignore :)
 
 **Programming is not a required skill. Whatever you've seen about open source with maintainers or community members saying "send patches or die" -  you will not see that here.**
 
+## Contributors
+
+[Thank you for contributing !](https://github.com/scalp42/askcerebro/graphs/contributors)
