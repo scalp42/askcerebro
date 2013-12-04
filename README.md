@@ -83,7 +83,7 @@ If a package is not available in Cerebro (for example `perl`), you'll get a 404 
 
 	NA
 	
-If you're trying to hit an endpoint unknown to Cerebro, you'll get a 404 HTTP NOT FOUND answer:
+If you're trying to hit an endpoint unknown to Cerebro, you'll get a **404 HTTP NOT FOUND** answer:
 
 	$> curl -i www.askcerebro.com/shady/endpoint 
 	
@@ -93,6 +93,15 @@ If you're trying to hit an endpoint unknown to Cerebro, you'll get a 404 HTTP NO
 	Transfer-Encoding: chunked
 	Connection: keep-alive
 	
+If Cerebro is **down**, you'll get a **503 Service Temporarily Unavailable**:
+
+	$> curl -i www.askcerebro.com/down
+	
+	HTTP/1.1 503 Service Temporarily Unavailable
+	Date: Wed, 04 Dec 2013 23:41:28 GMT
+	Content-Type: text/plain; charset=utf-8
+	Transfer-Encoding: chunked
+	Connection: keep-alive
 
 #### HUMAN API
 
