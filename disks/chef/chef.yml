@@ -1,7 +1,14 @@
-chef:
+chef-server:
   releases: ['ubuntu-12.04']
   ubuntu-12.04:
     version: 11.0.10
     url: https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef-server_11.0.10-1.ubuntu.12.04_amd64.deb
     md5: efe38b19778a1387eaae9dc555838f7f
     sha256: 7c4b2407d44bbd0e39f7ecdc5eee8106919dee8bdad64b38f1da4b759cf3d67f
+chef-client:
+  releases: ['ubuntu-12.04']
+  ubuntu-12.04:
+    version: 11.8.2
+    url: https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chef_11.8.2-1.ubuntu.12.04_amd64.deb
+    md5: 3d3b3662830a44eeec71aadc098a4018
+    sha256: a5b00a24e68e29a01c7ab9de5cdaf0cc9fd1c889599ad9af70293e5b4de8615c
