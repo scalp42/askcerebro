@@ -1,10 +1,12 @@
 riak:
-  releases: ['stable', 'preview']
+  releases:
+  - stable
+  - preview
   stable:
-    version: 1.4.2
-    url: http://s3.amazonaws.com/downloads.basho.com/riak/1.4/1.4.2/riak-1.4.2.tar.gz
-    md5: 4aa52f1d97a81c3ec52f508fd04c5c2a
-    sha256: 6a1fdcfc1f3f0357eeb377ead6638db4187379e3b40121cef16b517e03c6fd11
+    version: 1.4.6
+    url: http://s3.amazonaws.com/downloads.basho.com/riak/1.4/1.4.6/riak-1.4.6.tar.gz
+    md5: db9b73a91941b3bd00a91e43006566a8
+    sha256: c101a48af354a94ed5052498a81265356f1ae0e55190b6956dece3c15b06591a
   preview:
     version: 2.0.0pre5
     url: http://s3.amazonaws.com/downloads.basho.com/riak/2.0/2.0.0pre5/riak-2.0.0pre5.tar.gz
