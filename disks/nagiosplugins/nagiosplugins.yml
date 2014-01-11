@@ -1,12 +1,14 @@
 nagiosplugins:
-  releases: ['stable', 'head']
+  releases:
+  - stable
+  - development
   stable:
-    version: 1.4.16
-    url: http://hivelocity.dl.sourceforge.net/project/nagiosplug/nagiosplug/1.4.16/nagios-plugins-1.4.16.tar.gz
-    md5: 862f5e44fb5bc65ce7e5d86d654d4da0
-    sha256: b0caf07e0084e9b7f10fdd71cbd3ebabcd85ad78df64da360b51233b0e73b2bd
-  head:
-    version: null
-    url: http://nagiosplug.sourceforge.net/snapshot/nagios-plugins-HEAD.tar.gz
-    md5: null
-    sha256: null
+    version: "1.5"
+    url: https://www.nagios-plugins.org/download/nagios-plugins-1.5.tar.gz
+    md5: 730ac30df4a5e88fed8a766a2311d209
+    sha256: fcc55e23bbf1c70bcf1a90749d30249955d4668a9b776b2521da023c5c2f2170
+  development:
+    version: master
+    url: https://www.nagios-plugins.org/download/snapshot/nagios-plugins-master.tar.gz
+    md5:
+    sha256:

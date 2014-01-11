@@ -1,12 +1,26 @@
 ruby:
-  releases: ['stable', 'previous']
-  stable:
-    version: 2.1.0
-    url: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz
-    md5: 9e6386d53f5200a3e7069107405b93f7
-    sha256: 3538ec1f6af96ed9deb04e0965274528162726cc9ba3625dcf23648df872d09d
-  previous:
+  releases:
+  - 1.8.7
+  - 1.9.3
+  - 2.0.0
+  - 2.1.0
+  1.8.7:
+    version: 1.8.7-p374
+    url: http://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p374.tar.gz
+    sha256: 67b6d0f3bd11168a55f7d36a4175facb5d78db7e5c3cce59bf1c86f77c49dacc
+    md5: d6604c956fee563a1488d5782e956ee1
+  1.9.3:
     version: 1.9.3-p484
     url: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz
-    md5: 8ac0dee72fe12d75c8b2d0ef5d0c2968
-    sha256: d684bc3a5ba72cda9ef30039f783c0f8cdc325bae5c8738c7bf05577cbe8f31d
+    sha256: a504babff165c8dafcb6267c1e788bbcde7f27a0518aede5380dd031c70f17c8
+    md5: 58e0d6ab2cb843c8cadc52af60ee216f
+  2.0.0:
+    version: 2.0.0-p353
+    url: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.gz
+    sha256: 50871ea433319d479b55492478477464477e46425b753afe185f48c0ca61a511
+    md5: 024dcbe6d2ae85a2ca273783d99574e2
+  2.1.0:
+    version: 2.1.0
+    url: http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.0.tar.gz
+    sha256: b9009fe55bfb7a49ffcfe3ca09a8caab3146693b95197ba859e1b2a853b4fe71
+    md5: 31d1d6aaefaaf1ad47da2b110f7ec805
