@@ -1,17 +1,14 @@
 mongodb:
-  releases: ['stable', 'unstable', 'nightly']
-  stable:
-    version: 2.4.8
-    url: http://fastdl.mongodb.org/src/mongodb-src-r2.4.8.tar.gz
-    md5: 85a46189e034654ce7b1ca4fac8ad8dd
-    sha256: fd703ce5e53ddfa0cca9c7fba9a0c4cea4179d38972a98c675f45d9f15b4cfdc
-  unstable:
+  releases:
+  - production
+  - development
+  production:
+    version: 2.4.9
+    url: http://fastdl.mongodb.org/src/mongodb-src-r2.4.9.tar.gz
+    sha256: 40755d66419a5c9f0d9909a079b092195825773ded188ded3faf07025d02600f
+    md5: 76dc4e4fecf8753110507a0cd1c9cb65
+  development:
     version: 2.5.4
     url: http://fastdl.mongodb.org/src/mongodb-src-r2.5.4.tar.gz
-    md5: 390d1d361bf56852f9526f920c549bf3
     sha256: 18a83049fabb3bbc6e9519c3e20b6c4e412ae1f0f8e4c7684994e3ed919f969c
-  nightly:
-    version:
-    url: https://codeload.github.com/mongodb/mongo/legacy.tar.gz/v2.4
-    md5: null
-    sha256: null
+    md5: 390d1d361bf56852f9526f920c549bf3
