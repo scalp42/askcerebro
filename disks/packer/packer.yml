@@ -1,7 +1,8 @@
 packer:
-  releases: ['macosx']
+  releases:
+  - macosx
   macosx:
     version: 0.5.1
     url: https://dl.bintray.com/mitchellh/packer/0.5.1_darwin_amd64.zip
-    md5: e29eee9a11bd700dd281b2e51ac82dc0
     sha256: 56bec31f0d3540d566ef86979b25367660d7e72c010c9d87ef91c5c2138e9eae
+    md5: e29eee9a11bd700dd281b2e51ac82dc0
