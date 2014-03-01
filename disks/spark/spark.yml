@@ -1,0 +1,20 @@
+spark:
+  releases:
+  - hadoop1
+  - cdh4
+  - hadoop2
+  hadoop1:
+    version: 0.9.0
+    url: http://www.apache.org/dist/incubator/spark//spark-0.9.0-incubating/spark-0.9.0-incubating-bin-hadoop1.tgz
+    sha256: a4b05c424acaa2cd5c0fd239e2f67f485352ae4c6e65f41f03227e1d6723f14b
+    md5: 90c80a14ddd81d4426784c10addae02f
+  cdh4:
+    version: 0.9.0
+    url: http://www.apache.org/dist/incubator/spark//spark-0.9.0-incubating/spark-0.9.0-incubating-bin-cdh4.tgz
+    sha256: 8107bdb511ff3aaa750fb84eccf2ecbc866664c456c9282363aa08cd05cef135
+    md5: bc28206bb1032d8b20771d10276ca8e6
+  hadoop2:
+    version: 0.9.0
+    url: http://www.apache.org/dist/incubator/spark//spark-0.9.0-incubating/spark-0.9.0-incubating-bin-hadoop2.tgz
+    sha256: 24a6c3e190cce9bd5a00899f2388b4b691c22ae1f6ccbf81d6299d1d7814bfdc
+    md5: c279323c1fd3bb1e2051f4820ff85f8e
