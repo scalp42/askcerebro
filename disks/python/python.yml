@@ -1,12 +1,14 @@
 python:
-  releases: ['python2', 'python3']
+  releases:
+  - python2
+  - python3
   python2:
     version: 2.7.6
     url: http://www.python.org/ftp/python/2.7.6/Python-2.7.6.tgz
     md5: 1d8728eb0dfcac72a0fd99c17ec7f386
     sha256: 99c6860b70977befa1590029fae092ddb18db1d69ae67e8b9385b66ed104ba58
   python3:
-    version: 3.3.2
-    url: http://www.python.org/ftp/python/3.3.2/Python-3.3.2.tgz
-    md5: 0a2ea57f6184baf45b150aee53c0c8da
-    sha256: de664fca3b8e0ab20fb42bfed1a36e26f116f1853e88ada12dbc938761036172
+    version: 3.4.0
+    url: http://www.python.org/ftp/python/3.4.0/Python-3.4.0.tgz
+    md5: 3ca973eb72bb06ed5cadde0e28eaaaca
+    sha256: d2c83ea0217769a73e8b1ee33ffbca814903f8568e30f8d13e68e3d1f743449c

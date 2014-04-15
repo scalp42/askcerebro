@@ -1,12 +1,14 @@
 redis:
-  releases: ['old', 'stable']
+  releases:
+  - stable
+  - old
   old:
-    version: 2.6.16
-    url: http://download.redis.io/releases/redis-2.6.16.tar.gz
-    md5: ca1b81bd56fe0c5e2c8ec443a95c908d
-    sha256: 81490918dcf82d124b36e48b0a9911bfba3f13abba04d8c89820324eff7df03a
+    version: 2.6.17
+    url: http://download.redis.io/releases/redis-2.6.17.tar.gz
+    sha256: 5a65b54bb6deef2a8a4fabd7bd6962654a5d35787e68f732f471bbf117f4768e
+    md5: 918d74591e272e4419cba5beef67e995
   stable:
-    version: 2.8.3
-    url: http://download.redis.io/releases/redis-2.8.3.tar.gz
-    md5: 6327e6786130b556b048beef0edbdfa7
-    sha256: c0aa8065c230f9df1b77d1dd1e8840655e7846e23fe23f8e339d6246aec3e63f
+    version: 2.8.8
+    url: http://download.redis.io/releases/redis-2.8.8.tar.gz
+    sha256: fd2be11b8d9300d35b6bbed6fcd6fa6d7ef1a72ccaeb0cc991ce44dc49908bc8
+    md5: f3af82ca88b9d84c81d0b77614d07426

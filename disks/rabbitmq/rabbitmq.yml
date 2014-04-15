@@ -1,7 +1,8 @@
 rabbitmq:
-  releases: ['stable']
+  releases:
+  - stable
   stable:
-    version: 3.2.2
-    url: http://www.rabbitmq.com/releases/rabbitmq-server/v3.2.2/rabbitmq-server-3.2.2.tar.gz
-    md5: c978be085390c1cc51f92b064b259b36
-    sha256: c6f985d2bf69de60fa543ebfff190f233d2ab8faee78a10cfb065b4e4d1406ba
+    version: 3.3.0
+    url: http://www.rabbitmq.com/releases/rabbitmq-server/v3.3.0/rabbitmq-server-3.3.0.tar.gz
+    sha256: 2f0e2584becfd9826a79f44484db9bda853ffaefbdcc47cbc4065d88c2fd8623
+    md5: 8fcf912bb1b9dd3a7cdbf68f87eeccb4
