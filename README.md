@@ -30,7 +30,7 @@ I needed something easy, fast, easy to maintain and was using it personally with
 
 ## Where ?
 
-Just make a call to `www.askcerebro.com/package` where `package` is the package you want to get information about.
+Just make a call to `askcerebro.com/package` where `package` is the package you want to get information about.
 
 
 ## How ?
