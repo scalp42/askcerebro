@@ -1,5 +1,6 @@
 # Ask Cerebro
 
+> DEPRECATED: askcerebro will shut down on 04/26/14.
 
 ## What ?
 
