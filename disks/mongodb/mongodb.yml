@@ -1,8 +1,14 @@
 mongodb:
   releases:
   - production
+  - development
   production:
     version: 2.6.0
     url: http://fastdl.mongodb.org/src/mongodb-src-r2.6.0.tar.gz
     sha256: 6344d1f0cb44f171792c45ddc4f4b74a10ae86a28dc604b26ceab6dae4bdd318
     md5: 8d1195becf3a8309b7138e573c4e8244
+  development:
+    version: 2.6.1-rc0
+    url: http://fastdl.mongodb.org/src/mongodb-src-r2.6.1-rc0.tar.gz
+    sha256: dd00c85d2d42ef060a86820888ed659e2fe0aca7bdffabb46835b4df293ed286
+    md5: 85cf73c4de2341b325a037a09de9f89c
