@@ -1,14 +1,38 @@
 ruby:
   releases:
+  - 1.8.5
+  - 1.8.6
   - 1.8.7
+  - 1.9.1
+  - 1.9.2
   - 1.9.3
   - 2.0.0
   - 2.1.2
+  1.8.5:
+    version: 1.8.5-p231
+    url: http://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.5-p231.tar.gz
+    sha256: 9091ee606c89ebd94b3ced9a6c1bba8e56a8e5807091c14e81798690cb7e76ca
+    md5: e900cf225d55414bffe878f00a85807c
+  1.8.6:
+    version: 1.8.6-p420
+    url: http://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.6-p420.tar.gz
+    sha256: 118e6f24afce8e8a10dced23635168e58da6c9121a21f120c82f425d40a1e321
+    md5: ca1eee44f842e93b5098bc5a2bb9a40b
   1.8.7:
     version: 1.8.7-p374
     url: http://cache.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p374.tar.gz
     sha256: 876eeeaaeeab10cbf4767833547d66d86d6717ef48fd3d89e27db8926a65276c
     md5: b72a0bc5b824398537762e5272bbb8dc
+  1.9.1:
+    version: 1.9.1-p431
+    url: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p431.tar.gz
+    sha256: eb919b91c4f8e7f0400ae34abbacf93bca87015f544b9cf1f3b4c6128372a271
+    md5: 23f28cffc007ed5ac72c8e9bec6837ce
+  1.9.2:
+    version: 1.9.2-p320
+    url: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p320.tar.gz
+    sha256: 39a1f046e8756c1885cde42b234bc608196e50feadf1d0f202f7634f4a4b1245
+    md5: 5ef5d9c07af207710bd9c2ad1cef4b42
   1.9.3:
     version: 1.9.3-p547
     url: http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p547.tar.gz
