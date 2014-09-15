@@ -3,18 +3,30 @@ spark:
   - hadoop1
   - cdh4
   - hadoop2
+  - hadoop2.3
+  - hadoop2.4
   hadoop1:
-    version: 1.0.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.0.2-bin-hadoop1.tgz
-    sha256: 0bc23acfeb9ade949d5955f96b0429d3a6eb40930464620dc6b6599439067b7c
-    md5: 612b76a11f790888ab7ea37fef6aea5d
+    version: 1.1.0
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.1.0-bin-hadoop1.tgz
+    sha256: 2571fe80d3d35f5166243efdf20a6b88a154981386486f697e8d88c5f811fa11
+    md5: 90598d6bad6a056cc1f236ef9e69fda3
   cdh4:
-    version: 1.0.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.0.2-bin-cdh4.tgz
-    sha256: d3fbab4b4a8145d1106f30f6dcee48878d46b551f8f0254df0573f60a12e219f
-    md5: dfc2272781247a241f1f5878443a5f19
+    version: 1.1.0
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.1.0-bin-cdh4.tgz
+    sha256: 4b681d7252dc4e9c3d3ccf3f446e9ffc3cadfd84f762ca9f2e7fe7c9fa199a01
+    md5: ae853d4ca34f5d909038f43c15b6f099
   hadoop2:
     version: 1.0.2
     url: http://d3kbcqa49mib13.cloudfront.net/spark-1.0.2-bin-hadoop2.tgz
     sha256: e326456d7d13df9cad3bb1d088d9fa3d334587fe9245256c5553debc91fbceee
     md5: d13467a46bcb9f304cb7eaa6cd92885e
+  hadoop2.3:
+    version: 1.1.0
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.1.0-bin-hadoop2.3.tgz
+    sha256: 0bfa428fc8f9f31707a6cea1a27bad61c2bd800d9f0aab01ca60b4e7ded2be11
+    md5: 4d112223ab16a2b7fc4965e14bc9f9b1
+  hadoop2.4:
+    version: 1.1.0
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.1.0-bin-hadoop2.4.tgz
+    sha256: 0719cb0b057482be0814945f28a9f16cd87fc0a11e1e50b2b83110486cc76272
+    md5: 97e496772878dfa14be102e190e366fc
