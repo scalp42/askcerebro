@@ -1,0 +1,14 @@
+marathon:
+  releases:
+  - stable
+  - rc
+  stable:
+    version: 0.7.6
+    url: https://github.com/mesosphere/marathon/archive/v0.7.6.tar.gz
+    sha256: a150c5e3c7000184851e66d6d2e952e6e9de7efa44f997951de21d0ea0be62fc
+    md5: 3ceefdc76464bdf0232f3334a311f74f
+  rc:
+    version: 0.8.0-RC1
+    url: https://github.com/mesosphere/marathon/archive/v0.8.0-RC1.tar.gz
+    sha256: bd49f6c947934fd20ddeefa87c391b21001035c87dd80eb8788612eeea5c5a15
+    md5: 7a1199780a288f826fc382e8edbb75fb
