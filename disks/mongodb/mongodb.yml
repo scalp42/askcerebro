@@ -3,12 +3,12 @@ mongodb:
   - production
   - development
   production:
+    version: 3.0.0
+    url: http://fastdl.mongodb.org/src/mongodb-src-r3.0.0.tar.gz
+    sha256: c1fdbb6bbc33eafedc4aa363be2b3cdf1eea8b8eb618d25131c5a30def24aad9
+    md5: a3a6035f7708b1cbb5be4003452ccd90
+  development:
     version: 2.6.8
     url: http://fastdl.mongodb.org/src/mongodb-src-r2.6.8.tar.gz
     sha256: 1997f60d9de17320f22c604d8aa1cbe5f38d877142cd0e9130fe3dae7b311a06
     md5: 8e6981de9e3914f76f3cb4a79e0f9717
-  development:
-    version: 3.0.0-rc11
-    url: http://fastdl.mongodb.org/src/mongodb-src-r3.0.0-rc11.tar.gz
-    sha256: abf4d95593eff55d029620734fe72cddee72f3a86c549af0323b9e2715a674ef
-    md5: ab589bd491a8b0e94e2d8e1958da305a
