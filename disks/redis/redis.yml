@@ -1,14 +1,20 @@
 redis:
   releases:
   - stable
-  - old
-  old:
-    version: 2.6.17
-    url: http://download.redis.io/releases/redis-2.6.17.tar.gz
-    sha256: 5a65b54bb6deef2a8a4fabd7bd6962654a5d35787e68f732f471bbf117f4768e
-    md5: 918d74591e272e4419cba5beef67e995
+  - testing
+  - oldstable
   stable:
-    version: 3.0.0-rc1
-    url: http://download.redis.io/releases/redis-3.0.0-rc1.tar.gz
-    sha256: 4a42cf153bb682d9374c678eb9cb55f24fc43941c6f4ab8d654ca3f4e8327391
-    md5: fe4e14d7201dd06649f1c72d910fc39f
+    version: 2.8.19
+    url: https://github.com/antirez/redis/archive/2.8.19.tar.gz
+    sha256: b284667de5bee173b11aa4ff50439eee43551845b4871d4d89f43a563ac53442
+    md5: 8a2996c3e1237cbedd9460a5ba56d324
+  testing:
+    version: 3.0.0-rc4
+    url: https://github.com/antirez/redis/archive/3.0.0-rc4.tar.gz
+    sha256: 1787b7fd57ec019e84691e881e81a8d8b67cf0d2457bd484d4da8c6eaca4a731
+    md5: 5b479f04fa5b32a29e02b7e54f51fe30
+  oldstable:
+    version: 2.6.17
+    url: https://github.com/antirez/redis/archive/2.6.17.tar.gz
+    sha256: 2060c538f0ac5c64dc767cb2540c682f235a061b4bf68e29aad1650054ebc586
+    md5: 4b0a66743ec1a2a007e40df2ed40817e
