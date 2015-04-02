@@ -1,20 +1,14 @@
 redis:
   releases:
   - stable
-  - testing
-  - oldstable
+  - old
   stable:
+    version: 3.0.0
+    url: https://github.com/antirez/redis/archive/3.0.0.tar.gz
+    sha256: 05185a2ef3103847a182038731e68f5928df4ab0d640a5fa4319125a019b76a6
+    md5: 6d2a813346c25d491e45f2c144caf211
+  old:
     version: 2.8.19
     url: https://github.com/antirez/redis/archive/2.8.19.tar.gz
     sha256: b284667de5bee173b11aa4ff50439eee43551845b4871d4d89f43a563ac53442
     md5: 8a2996c3e1237cbedd9460a5ba56d324
-  testing:
-    version: 3.0.0-rc6
-    url: https://github.com/antirez/redis/archive/3.0.0-rc6.tar.gz
-    sha256: 3deb09911cfbfabbb7eb641653115f2fa6ae9ae044f710c795a7d402a256a299
-    md5: 3a0e53e7e13de7f3dc274039b4b0be10
-  oldstable:
-    version: 2.6.17
-    url: https://github.com/antirez/redis/archive/2.6.17.tar.gz
-    sha256: 2060c538f0ac5c64dc767cb2540c682f235a061b4bf68e29aad1650054ebc586
-    md5: 4b0a66743ec1a2a007e40df2ed40817e
