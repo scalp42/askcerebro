@@ -3,12 +3,12 @@ openresty:
   - lastest
   - legacy
   lastest:
+    version: 1.7.10.2
+    url: http://openresty.org/download/ngx_openresty-1.7.10.2.tar.gz
+    sha256: 5e8beafb7b32ba62fd34b323b2e9cf49884b4f0491fccf189f0b88b3e25dd0e4
+    md5: bca1744196acfb9e986f1fdbee92641e
+  legacy:
     version: 1.7.10.1
     url: http://openresty.org/download/ngx_openresty-1.7.10.1.tar.gz
     sha256: 4fd0d73e5955319cee51c6fa574e254be4538a63ae3e673c35eacdf9d4bce679
     md5: 1093b89459922634a818e05f80c1e18a
-  legacy:
-    version: 1.7.7.2
-    url: http://openresty.org/download/ngx_openresty-1.7.7.2.tar.gz
-    sha256: 5cd6db20c3b4e9f128eda7e7b31810f8b278ea0644fdd9d2f51b34ad2b356298
-    md5: f49efb9a594cfa681dbdcc41023d239a
