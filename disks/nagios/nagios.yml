@@ -1,14 +1,14 @@
 nagios:
   releases:
-  - "4"
-  - "3"
-  "4":
+  - stable
+  - rc
+  stable:
     version: 4.0.8
-    url: http://softlayer-ams.dl.sourceforge.net/project/nagios/nagios-4.x/nagios-4.0.8/nagios-4.0.8.tar.gz
+    url: https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.0.8.tar.gz
     sha256: 8b268d250c97851775abe162f46f64724f95f367d752ae4630280cc5d368ca4b
     md5: 4bba4eef427cfb113fb513b6166a6af6
-  "3":
-    version: 3.5.1
-    url: http://softlayer-ams.dl.sourceforge.net/project/nagios/nagios-3.x/nagios-3.5.1/nagios-3.5.1.tar.gz
-    sha256: ca9dd68234fa090b3c35ecc8767b2c9eb743977eaf32612fa9b8341cc00a0f99
-    md5: 9947ed3d220b4da86710884260d42856
+  rc:
+    version: 4.1.0rc2
+    url: https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.1.0rc2.tar.gz
+    sha256: fb03d3982e4daab69dc07770beacc6e012bf273ab1955f6044cb62ca95de0fe5
+    md5: 80be1e56c1312e9352629c6ab57e0ea9
