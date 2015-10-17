@@ -1,8 +1,26 @@
 cassandra:
   releases:
-  - stable
-  stable:
+  - "2.0"
+  - "2.1"
+  - "2.2"
+  - "3.0"
+  "2.0":
+    version: 2.0.17
+    url: https://dist.apache.org/repos/dist/release/cassandra/2.0.17/apache-cassandra-2.0.17-bin.tar.gz
+    sha256: ba56e3176c385a4be16f48bf8bbbf6ffee10774dcf909c19fd77783ac402071c
+    md5: 5c3a1dd76f5261900e3f165f3e964815
+  "2.1":
     version: 2.1.11
     url: https://dist.apache.org/repos/dist/release/cassandra/2.1.11/apache-cassandra-2.1.11-bin.tar.gz
     sha256: 52c863797a6e3dd57182aa7b927ee588959019fb5509c0fb10d07b28ed9f31ca
     md5: 9f6c940e4201575804d07a2e103d1d61
+  "2.2":
+    version: 2.2.3
+    url: https://dist.apache.org/repos/dist/release/cassandra/2.2.3/apache-cassandra-2.2.3-bin.tar.gz
+    sha256: 47bc96319d158e051670d067e01c736e6fff1f39b9aeb58ed1d906eec4e6f55e
+    md5: 36cbb2d03ad75698dff5e51159518d96
+  "3.0":
+    version: 3.0.0-rc1
+    url: https://dist.apache.org/repos/dist/release/cassandra/3.0.0/apache-cassandra-3.0.0-rc1-bin.tar.gz
+    sha256: f28976d2e5377bf2f778f2b62305dd91fe81eb4aa76985d043022b1a9ca574b5
+    md5: dba8c73b97133a92ae263045982bf9bf
