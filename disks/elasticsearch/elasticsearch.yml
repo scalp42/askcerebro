@@ -1,8 +1,14 @@
 elasticsearch:
   releases:
   - latest
+  - legacy
   latest:
-    version: 2.0.2
-    url: https://github.com/elastic/elasticsearch/archive/v2.0.2.tar.gz
-    sha256: 9655097b5a3ded76e31da1d4500b5e4f12d3c17fde77913f6275de0bb0ff0f18
-    md5: 0b89bf62cc2e08953c793567c2cefddb
+    version: 2.2.0
+    url: https://github.com/elastic/elasticsearch/archive/v2.2.0.tar.gz
+    sha256: 48426497472199c4f4bb1a5cf9c3b98c1871bb1902e628d18db0bc73b4f6341e
+    md5: 3043a6a1165b2f5b594cbbfc720a17d3
+  legacy:
+    version: 1.7.5
+    url: https://github.com/elastic/elasticsearch/archive/v1.7.5.tar.gz
+    sha256: 93b6b38ae6641b006f652ef636dd3e4cf6907fc9a7a1463ff037c034b043371f
+    md5: 9f59a1ab08e62f0a303e63a0dd66b8b6
