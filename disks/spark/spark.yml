@@ -5,6 +5,7 @@ spark:
   - hadoop2
   - hadoop2.3
   - hadoop2.4
+  - hadoop2.6
   hadoop1:
     version: 1.6.0
     url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.0-bin-hadoop1.tgz
@@ -30,3 +31,8 @@ spark:
     url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.0-bin-hadoop2.4.tgz
     sha256: 6e314260e6664d470d42dfbaadbdace74b92dec2e630b6142c9ada1e80416bc9
     md5: 74083148ce6af63b2983a903d6dffdf5
+  hadoop2.6:
+    version: 1.6.0
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.0-bin-hadoop2.6.tgz
+    sha256: 439fe7793e0725492d3d36448adcd1db38f438dd1392bffd556b58bb9a3a2601
+    md5: 624b161f6770a6e0e00e5716afd0ea0b
