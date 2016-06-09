@@ -1,8 +1,14 @@
 jenkins:
   releases:
   - latest
+  - lts
   latest:
-    version: "1.658"
-    url: https://github.com/jenkinsci/jenkins/archive/jenkins-1.658.tar.gz
-    sha256: a5c9fb932a11b8dffb0a60cc24349ba2a54b708de87e506039e1a2bd996b51ff
-    md5: 1e274809371f2c48649612befe09639a
+    version: "2.8"
+    url: https://github.com/jenkinsci/jenkins/archive/jenkins-2.8.tar.gz
+    sha256: be2864d9516700e35933948613f17a6f4a309c473f377386c39c54aa025c091f
+    md5: da267ff905c5bdefb9509977986e37ec
+  lts:
+    version: 1.651.2
+    url: https://github.com/jenkinsci/jenkins/archive/jenkins-1.651.2.tar.gz
+    sha256: 5df223453e019ee221fa5cc2ac9d6a3dea638442b913c134b70ae06698499a81
+    md5: ec881d2fb31271ca1a26dbfc53aace60
