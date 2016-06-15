@@ -1,38 +1,32 @@
 spark:
   releases:
   - hadoop1
-  - cdh4
-  - hadoop2
   - hadoop2.3
   - hadoop2.4
   - hadoop2.6
+  - cdh4
   hadoop1:
     version: 1.6.1
-    url: http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop1.tgz
+    url: http://apache.cs.utah.edu/spark/spark-1.6.1/spark-1.6.1-bin-hadoop1.tgz
     sha256: 2dd89c07e1c4aea8ff7549ac4f8dcf658acfde9335150e0440cbbef1355663f8
     md5: 2d9b0f94ed96f9d5e4252bfe2b108eb7
-  cdh4:
-    version: 1.6.1
-    url: http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-cdh4.tgz
-    sha256: 760f89a63e8b1db5b44888384ce4f5184960cef86c892995ae142fc1e3f1a94e
-    md5: 046da8bbb49c05cac6ce2c849806c3fb
-  hadoop2:
-    version: 1.0.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.0.2-bin-hadoop2.tgz
-    sha256: e326456d7d13df9cad3bb1d088d9fa3d334587fe9245256c5553debc91fbceee
-    md5: d13467a46bcb9f304cb7eaa6cd92885e
   hadoop2.3:
     version: 1.6.1
-    url: http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.3.tgz
+    url: http://apache.cs.utah.edu/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.3.tgz
     sha256: 26001c07cb3eb3d742dc5dc262af8a9017cd33474b568be7147d59220df90cdc
     md5: 4102eb0395f8487f25217c43dcaa9ef4
   hadoop2.4:
     version: 1.6.1
-    url: http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.4.tgz
+    url: http://apache.cs.utah.edu/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.4.tgz
     sha256: 3b314edfd0e03ce86de603da5013e496e81594d5176a2113e9d2e42feea44340
     md5: ba59267bee43b1945bf63cb339226cd4
   hadoop2.6:
     version: 1.6.1
-    url: http://www-us.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
+    url: http://apache.cs.utah.edu/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
     sha256: 09f3b50676abc9b3d1895773d18976953ee76945afa72fa57e6473ce4e215970
     md5: 667a62d7f289479a19da4b563e7151d4
+  cdh4:
+    version: 1.6.1
+    url: http://apache.cs.utah.edu/spark/spark-1.6.1/spark-1.6.1-bin-cdh4.tgz
+    sha256: 760f89a63e8b1db5b44888384ce4f5184960cef86c892995ae142fc1e3f1a94e
+    md5: 046da8bbb49c05cac6ce2c849806c3fb
