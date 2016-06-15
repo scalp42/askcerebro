@@ -1,7 +1,20 @@
 riakcs:
-  releases: ['stable']
+  releases:
+  - stable
+  - rc
+  - beta
   stable:
-    version: 1.4.1
-    url: http://s3.amazonaws.com/downloads.basho.com/riak-cs/1.4/1.4.1/riak-cs-1.4.1.tar.gz
-    md5: 13b321f2535e22f4445a170beffac377
-    sha256: 55a9248938272dff6873584785119d98eaeac83e795d6ecce49bec5648220ad8
+    version: 2.1.1
+    url: https://github.com/basho/riak_cs/archive/2.1.1.tar.gz
+    md5: 730ac9fa1746c05822f6de9953f5f85e
+    sha256: 58f1ea60034e133bbb4390440acc5a3c57aea34237df71ca55bf49ba2ac1ea4b
+  rc:
+    version: 2.1.2rc1
+    url: https://github.com/basho/riak_cs/archive/2.1.2rc1.tar.gz
+    sha256: 0c044998642c444047ddbbaec1740520093efa24e2d71f89499e8ae138ff66fa
+    md5: b2e0cc85d40dbf97e09fc832391a7135
+  beta:
+    version: 2.1.2beta1
+    url: https://github.com/basho/riak_cs/archive/2.1.2beta1.tar.gz
+    sha256: 0636dd9d7f3282c620657d98065b84c33f949b8ac4cfd326b8f7f8ac60e42fcb
+    md5: 02831eba73abcd7e045869fc55956d70
