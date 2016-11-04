@@ -5,28 +5,34 @@ spark:
   - hadoop2.4
   - hadoop2.6
   - cdh4
+  - hadoop2.7
   hadoop1:
     version: 1.6.2
     url: http://apache.cs.utah.edu/spark/spark-1.6.2/spark-1.6.2-bin-hadoop1-scala2.11.tgz
     sha256: 7b30183189dd34c129b553eca8c9042e1494e0be188214dc405aab3ea23b7c44
     md5: 62086742a36356666eea9935a2de61bd
   hadoop2.3:
-    version: 1.6.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-hadoop2.3.tgz
-    sha256: 9290fb31e7eedbb95dde859377ad0fc9169a45e2da5c41c1f0ea973afa4e9224
-    md5: 64c99fc1f2a0a97a93d9e39900434bca
+    version: 2.0.1
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.3.tgz
+    sha256: ae7f7be6e50498241d8656b7a631bbcaecc20aa31d37c8f4ac4437ee9dd71700
+    md5: 7cef5a5137d61edf3abe01ddabc868cb
   hadoop2.4:
-    version: 1.6.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-hadoop2.4.tgz
-    sha256: 8aac73831a26a6f802991bceb36ac81f8b8cdf1b921a8a2711abf06f7a20439d
-    md5: 58c04985830e4f3f13d00ea561668660
+    version: 2.0.1
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.4.tgz
+    sha256: 12a8dbdd040f8aed0f918ebe355bb9831e81b5f1fd5549c12f797cddbcd2af52
+    md5: 43a867cf5b59d6abfa644910210a4085
   hadoop2.6:
-    version: 1.6.2
-    url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-hadoop2.6.tgz
-    sha256: bddeccec0fb8ac9491cbb4e320467e9263bcc1caf9b45466164f8ae2d97de710
-    md5: 604936f2bd8af999d0d624b370f5c4b1
+    version: 2.0.1
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.6.tgz
+    sha256: 064d6fc33fc9984e2d75ad7a68e78914ef3f604e010ed47dae796a349159a2f5
+    md5: aa2dda87035778138fad4fcd55cc01f4
   cdh4:
     version: 1.6.2
     url: http://d3kbcqa49mib13.cloudfront.net/spark-1.6.2-bin-cdh4.tgz
     sha256: e0ae71076d4317620c62f368b750da1f3c462b28b3b8a5807e261fe599301156
     md5: 0932d6ce2ad70145b80a09d84945327c
+  hadoop2.7:
+    version: 2.0.1
+    url: http://d3kbcqa49mib13.cloudfront.net/spark-2.0.1-bin-hadoop2.7.tgz
+    sha256: 3d017807650f41377118a736e2f2298cd0146a593e7243a28c2ed72a88b9a043
+    md5: 43aa7c28b9670e65cb4f395000838860
