@@ -2,6 +2,7 @@ marathon:
   releases:
   - stable
   - rc
+  - snapshot
   stable:
     version: 1.3.6
     url: https://github.com/mesosphere/marathon/archive/v1.3.6.tar.gz
@@ -12,3 +13,8 @@ marathon:
     url: https://github.com/mesosphere/marathon/archive/v1.3.0-RC7.tar.gz
     sha256: 22d57a1b09178ca875c09a79feb03439de98b918994b5bbb84ce372583b97d45
     md5: 5b2a8da2cf84371a42d45aa90a15e9f9
+  snapshot:
+    version: 1.4.0-snap30
+    url: https://github.com/mesosphere/marathon/archive/v1.4.0-snap30.tar.gz
+    sha256: 3ba5ad04d7c8d262630ddac79f8ed0bb394c8a9cb693a558cf05eb33f05a89ec
+    md5: e1ae90e4d816fe57e5cd79b7d0fa174f
