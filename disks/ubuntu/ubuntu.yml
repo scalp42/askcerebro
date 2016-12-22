@@ -468,678 +468,678 @@ ubuntu:
   "12.04":
     ap-northeast-1:
       amd64:
-        ebs:
-          ami: ami-3263d353
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-3263d353
-          type: paravirtual
-          metadata: "20161130"
-          arch: amd64
         hvm:ebs:
-          ami: ami-b163d3d0
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-b163d3d0
+          ami: ami-5f5a3738
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-5f5a3738
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        ebs-io1:
-          ami: ami-9a7ecefb
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-9a7ecefb
+        ebs:
+          ami: ami-d25835b5
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-d25835b5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-de60d0bf
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-de60d0bf
+          ami: ami-9b5a37fc
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-9b5a37fc
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        hvm:ebs-ssd:
-          ami: ami-6766d606
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-6766d606
-          type: hvm
-          metadata: "20161130"
+        ebs-io1:
+          ami: ami-b05934d7
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-b05934d7
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-d560d0b4
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-d560d0b4
+          ami: ami-1e583579
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-1e583579
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        hvm:ebs-ssd:
+          ami: ami-65553802
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-65553802
+          type: hvm
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-6061d101
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-6061d101
+          ami: ami-23593444
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-23593444
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-b37fcfd2
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-b37fcfd2
+          ami: ami-4a59342d
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-4a59342d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-3663d357
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-3663d357
+          ami: ami-21593446
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-21593446
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-9f7ecefe
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-9f7ecefe
+          ami: ami-b65934d1
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-b65934d1
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-ef7fcf8e
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-ef7fcf8e
+          ami: ami-995538fe
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-995538fe
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-1f60d07e
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-1f60d07e
+          ami: ami-0a5f326d
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-0a5f326d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     ap-southeast-1:
       amd64:
         hvm:ebs:
-          ami: ami-2271dc41
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-2271dc41
+          ami: ami-8872deeb
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-8872deeb
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs:
-          ami: ami-f874d99b
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-f874d99b
+          ami: ami-d271ddb1
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-d271ddb1
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-4577da26
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-4577da26
+          ami: ami-ae73dfcd
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-ae73dfcd
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-a376dbc0
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-a376dbc0
+          ami: ami-c970dcaa
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-c970dcaa
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-4177da22
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-4177da22
+          ami: ami-5a72de39
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-5a72de39
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-5c77da3f
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-5c77da3f
+          ami: ami-8672dee5
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-8672dee5
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-9174d9f2
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-9174d9f2
+          ami: ami-0a73df69
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-0a73df69
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-d775d8b4
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-d775d8b4
+          ami: ami-de71ddbd
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-de71ddbd
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-7477da17
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-7477da17
+          ami: ami-9577dbf6
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-9577dbf6
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-4877da2b
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-4877da2b
+          ami: ami-d671ddb5
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-d671ddb5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-a076dbc3
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-a076dbc3
+          ami: ami-0773df64
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-0773df64
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-1177da72
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-1177da72
+          ami: ami-f870dc9b
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-f870dc9b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     ap-southeast-2:
       amd64:
         hvm:ebs:
-          ami: ami-6d122b0e
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-6d122b0e
+          ami: ami-90231bf3
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-90231bf3
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs:
-          ami: ami-c6122ba5
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c6122ba5
+          ami: ami-d02119b3
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-d02119b3
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        ebs-io1:
-          ami: ami-d9132aba
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-d9132aba
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-dc152cbf
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-dc152cbf
+          ami: ami-30241c53
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-30241c53
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        hvm:ebs-ssd:
-          ami: ami-1e152c7d
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-1e152c7d
-          type: hvm
-          metadata: "20161130"
+        ebs-io1:
+          ami: ami-9b231bf8
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-9b231bf8
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-75122b16
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-75122b16
+          ami: ami-36241c55
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-36241c55
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        instance-store:
-          ami: ami-b2142dd1
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-b2142dd1
-          type: paravirtual
-          metadata: "20161130"
+        hvm:ebs-ssd:
+          ami: ami-b1241cd2
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-b1241cd2
+          type: hvm
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-c6152ca5
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c6152ca5
+          ami: ami-5921193a
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-5921193a
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        instance-store:
+          ami: ami-a7221ac4
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-a7221ac4
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-c2152ca1
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c2152ca1
+          ami: ami-9d221afe
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-9d221afe
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-a6142dc5
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-a6142dc5
+          ami: ami-cd2119ae
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-cd2119ae
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-ff142d9c
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-ff142d9c
+          ami: ami-68221a0b
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-68221a0b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-cf122bac
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-cf122bac
+          ami: ami-38221a5b
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-38221a5b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     eu-west-1:
       amd64:
-        ebs:
-          ami: ami-0c49107f
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-0c49107f
-          type: paravirtual
-          metadata: "20161130"
-          arch: amd64
         hvm:ebs:
-          ami: ami-55431a26
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-55431a26
+          ami: ami-18eeb46b
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-18eeb46b
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        ebs:
+          ami: ami-7febb10c
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-7febb10c
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-0a4c1579
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-0a4c1579
+          ami: ami-5fe9b32c
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-5fe9b32c
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-52411821
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-52411821
+          ami: ami-69e8b21a
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-69e8b21a
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-b04c15c3
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-b04c15c3
+          ami: ami-54eeb427
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-54eeb427
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-f5401986
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-f5401986
+          ami: ami-98edb7eb
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-98edb7eb
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-554d1426
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-554d1426
+          ami: ami-88ebb1fb
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-88ebb1fb
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-f848118b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-f848118b
+          ami: ami-bef4aecd
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-bef4aecd
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-03481170
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-03481170
+          ami: ami-73f4ae00
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-73f4ae00
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-da4b12a9
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-da4b12a9
+          ami: ami-15ebb166
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-15ebb166
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-044e1777
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-044e1777
+          ami: ami-d0e9b3a3
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-d0e9b3a3
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-46481135
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-46481135
+          ami: ami-d3eab0a0
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-d3eab0a0
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     sa-east-1:
       amd64:
         ebs:
-          ami: ami-8f30aee3
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-8f30aee3
+          ami: ami-1f7fe673
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-1f7fe673
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs:
-          ami: ami-d22db3be
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-d22db3be
+          ami: ami-8d7de4e1
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-8d7de4e1
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-302db35c
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-302db35c
+          ami: ami-7d70e911
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-7d70e911
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-bf2db3d3
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-bf2db3d3
+          ami: ami-817fe6ed
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-817fe6ed
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        ebs-ssd:
-          ami: ami-322db35e
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-322db35e
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-d02db3bc
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-d02db3bc
+          ami: ami-ab7ee7c7
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-ab7ee7c7
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        ebs-ssd:
+          ami: ami-e24ed78e
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-e24ed78e
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-002fb16c
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-002fb16c
+          ami: ami-7045dc1c
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-7045dc1c
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-fc33ad90
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-fc33ad90
+          ami: ami-957fe6f9
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-957fe6f9
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-352cb259
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-352cb259
+          ami: ami-7445dc18
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-7445dc18
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-b52fb1d9
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-b52fb1d9
+          ami: ami-807fe6ec
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-807fe6ec
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-d92cb2b5
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-d92cb2b5
+          ami: ami-027fe66e
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-027fe66e
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-7934aa15
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-7934aa15
+          ami: ami-c443daa8
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-c443daa8
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     us-east-1:
       amd64:
         ebs:
-          ami: ami-2bd8e13c
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-2bd8e13c
+          ami: ami-40545457
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-40545457
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs:
-          ami: ami-5ed2eb49
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-5ed2eb49
+          ami: ami-cf5a5ad8
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-cf5a5ad8
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-09d3ea1e
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-09d3ea1e
+          ami: ami-2b5c5c3c
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-2b5c5c3c
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-e7dae3f0
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-e7dae3f0
+          ami: ami-af5656b8
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-af5656b8
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-86d0e991
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-86d0e991
+          ami: ami-0955551e
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-0955551e
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-a2d3eab5
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-a2d3eab5
+          ami: ami-2a5d5d3d
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-2a5d5d3d
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        instance-store:
-          ami: ami-46d8e151
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-46d8e151
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-f8d8e1ef
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-f8d8e1ef
+          ami: ami-3a53532d
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-3a53532d
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        instance-store:
+          ami: ami-4e505059
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-4e505059
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-48dae35f
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-48dae35f
+          ami: ami-73535364
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-73535364
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-67dbe270
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-67dbe270
+          ami: ami-3d54542a
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-3d54542a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-69dfe67e
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-69dfe67e
+          ami: ami-15555502
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-15555502
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-81e4dd96
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-81e4dd96
+          ami: ami-00505017
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-00505017
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     us-west-1:
       amd64:
         hvm:ebs:
-          ami: ami-980d5af8
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-980d5af8
+          ami: ami-72e3b412
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-72e3b412
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs:
-          ami: ami-a70f58c7
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-a70f58c7
+          ami: ami-84e2b5e4
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-84e2b5e4
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        hvm:ebs-io1:
-          ami: ami-0c0e596c
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-0c0e596c
-          type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-ca0c5baa
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-ca0c5baa
+          ami: ami-27e4b347
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-27e4b347
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        hvm:ebs-io1:
+          ami: ami-ade4b3cd
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-ade4b3cd
+          type: hvm
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-300e5950
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-300e5950
+          ami: ami-32e5b252
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-32e5b252
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-450d5a25
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-450d5a25
+          ami: ami-f9e1b699
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-f9e1b699
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        instance-store:
-          ami: ami-b40f58d4
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-b40f58d4
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-d60c5bb6
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-d60c5bb6
+          ami: ami-5de3b43d
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-5de3b43d
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        instance-store:
+          ami: ami-95e2b5f5
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-95e2b5f5
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-a90057c9
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-a90057c9
+          ami: ami-bbe4b3db
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-bbe4b3db
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-ba0e59da
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-ba0e59da
+          ami: ami-47e3b427
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-47e3b427
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-930d5af3
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-930d5af3
+          ami: ami-f4e1b694
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-f4e1b694
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-e50e5985
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-e50e5985
+          ami: ami-91e2b5f1
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-91e2b5f1
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     us-west-2:
       amd64:
         ebs:
-          ami: ami-e4c06984
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-e4c06984
+          ami: ami-196ec579
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-196ec579
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:ebs:
-          ami: ami-eec36a8e
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-eec36a8e
+          ami: ami-1f63c87f
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-1f63c87f
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        hvm:ebs-io1:
-          ami: ami-09c46d69
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-09c46d69
-          type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-io1:
-          ami: ami-edc1688d
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-edc1688d
+          ami: ami-db6fc4bb
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-db6fc4bb
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        hvm:ebs-ssd:
-          ami: ami-0ac46d6a
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-0ac46d6a
+        hvm:ebs-io1:
+          ami: ami-ff6dc69f
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-ff6dc69f
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-c5c069a5
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-c5c069a5
+          ami: ami-2f61ca4f
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-2f61ca4f
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        hvm:ebs-ssd:
+          ami: ami-916bc0f1
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-916bc0f1
+          type: hvm
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-64c06904
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-64c06904
+          ami: ami-666cc706
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-666cc706
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-66c56c06
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-66c56c06
+          ami: ami-7e6fc41e
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-7e6fc41e
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-69c26b09
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-69c26b09
+          ami: ami-5c69c23c
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-5c69c23c
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-61c26b01
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-61c26b01
+          ami: ami-d568c3b5
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-d568c3b5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-2ac46d4a
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-2ac46d4a
+          ami: ami-856ec5e5
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-856ec5e5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-c2cf66a2
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-c2cf66a2
+          ami: ami-7769c217
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-7769c217
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
     eu-central-1:
       amd64:
-        hvm:ebs:
-          ami: ami-7e15d211
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-7e15d211
-          type: hvm
-          metadata: "20161130"
-          arch: amd64
         ebs:
-          ami: ami-f709ce98
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-f709ce98
+          ami: ami-914086fe
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-914086fe
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
-        ebs-io1:
-          ami: ami-1316d17c
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-1316d17c
-          type: paravirtual
-          metadata: "20161130"
+        hvm:ebs:
+          ami: ami-b94086d6
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-b94086d6
+          type: hvm
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-7115d21e
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-7115d21e
+          ami: ami-e7408688
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-e7408688
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
+          arch: amd64
+        ebs-io1:
+          ami: ami-eb408684
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-eb408684
+          type: paravirtual
+          metadata: "20161208"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-3417d05b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-3417d05b
+          ami: ami-df4f89b0
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-df4f89b0
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         ebs-ssd:
-          ami: ami-8617d0e9
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-8617d0e9
+          ami: ami-ef438580
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-ef438580
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         hvm:instance-store:
-          ami: ami-7d17d012
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-7d17d012
+          ami: ami-3f428450
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-3f428450
           type: hvm
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
         instance-store:
-          ami: ami-ac08cfc3
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-ac08cfc3
+          ami: ami-684e8807
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-684e8807
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: amd64
       i386:
         ebs:
-          ami: ami-8109ceee
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-8109ceee
+          ami: ami-2243854d
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-2243854d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-io1:
-          ami: ami-f009ce9f
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-f009ce9f
+          ami: ami-374e8858
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-374e8858
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         ebs-ssd:
-          ami: ami-e408cf8b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-e408cf8b
+          ami: ami-c94e88a6
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-c94e88a6
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
         instance-store:
-          ami: ami-9a08cff5
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-9a08cff5
+          ami: ami-3e428451
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-3e428451
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161208"
           arch: i386
   "13.10":
     ap-northeast-1:
@@ -1745,678 +1745,678 @@ ubuntu:
   "14.04":
     ap-northeast-1:
       amd64:
-        ebs:
-          ami: ami-1478c875
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-1478c875
-          type: paravirtual
-          metadata: "20161130"
-          arch: amd64
         hvm:ebs:
-          ami: ami-4175c520
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-4175c520
+          ami: ami-0f137d68
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-0f137d68
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        ebs-io1:
-          ami: ami-367bcb57
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-367bcb57
+        ebs:
+          ami: ami-c3117fa4
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-c3117fa4
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-8677c7e7
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-8677c7e7
+          ami: ami-01137d66
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-01137d66
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        ebs-io1:
+          ami: ami-b8137ddf
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-b8137ddf
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-2b7bcb4a
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-2b7bcb4a
+          ami: ami-27107e40
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-27107e40
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-d377c7b2
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-d377c7b2
+          ami: ami-33137d54
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-33137d54
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-0d75c56c
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-0d75c56c
+          ami: ami-8d127cea
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-8d127cea
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-d476c6b5
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-d476c6b5
+          ami: ami-bc107edb
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-bc107edb
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-9678c8f7
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-9678c8f7
+          ami: ami-80127ce7
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-80127ce7
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-9b78c8fa
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-9b78c8fa
+          ami: ami-656e0002
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-656e0002
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-0578c864
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-0578c864
+          ami: ami-88157bef
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-88157bef
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-4b76c62a
-          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-4b76c62a
+          ami: ami-12177975
+          url: https://console.aws.amazon.com/ec2/home?region=ap-northeast-1#launchAmi=ami-12177975
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     ap-southeast-1:
       amd64:
         ebs:
-          ami: ami-537bd630
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-537bd630
+          ami: ami-268f2045
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-268f2045
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs:
-          ami: ami-c07ad7a3
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-c07ad7a3
+          ami: ami-e3b01f80
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-e3b01f80
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        hvm:ebs-io1:
-          ami: ami-0b77da68
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-0b77da68
-          type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-io1:
-          ami: ami-aa74d9c9
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-aa74d9c9
+          ami: ami-e98f208a
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-e98f208a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        ebs-ssd:
-          ami: ami-ae74d9cd
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-ae74d9cd
-          type: paravirtual
-          metadata: "20161130"
+        hvm:ebs-io1:
+          ami: ami-eeb21d8d
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-eeb21d8d
+          type: hvm
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-be74d9dd
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-be74d9dd
+          ami: ami-2a8d2249
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-2a8d2249
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        ebs-ssd:
+          ami: ami-d8b11ebb
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-d8b11ebb
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-787ad71b
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-787ad71b
+          ami: ami-2b8f2048
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-2b8f2048
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-a27ad7c1
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-a27ad7c1
+          ami: ami-e5b11e86
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-e5b11e86
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-3075d853
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-3075d853
+          ami: ami-5fb11e3c
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-5fb11e3c
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-597ad73a
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-597ad73a
+          ami: ami-1a8f2079
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-1a8f2079
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-c27ad7a1
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-c27ad7a1
+          ami: ami-c6b11ea5
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-c6b11ea5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-ac7ad7cf
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-ac7ad7cf
+          ami: ami-3b8f2058
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-1#launchAmi=ami-3b8f2058
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     ap-southeast-2:
       amd64:
         hvm:ebs:
-          ami: ami-2e122b4d
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-2e122b4d
+          ami: ami-937d46f0
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-937d46f0
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs:
-          ami: ami-53102930
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-53102930
+          ami: ami-f87d469b
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-f87d469b
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        ebs-io1:
-          ami: ami-52112831
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-52112831
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-77132a14
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-77132a14
+          ami: ami-6b7f4408
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-6b7f4408
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        ebs-ssd:
-          ami: ami-3e132a5d
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-3e132a5d
+        ebs-io1:
+          ami: ami-6f7e450c
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-6f7e450c
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-f4122b97
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-f4122b97
+          ami: ami-207e4543
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-207e4543
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        hvm:instance-store:
-          ami: ami-5b102938
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-5b102938
-          type: hvm
-          metadata: "20161130"
+        ebs-ssd:
+          ami: ami-217d4642
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-217d4642
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-c11e27a2
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c11e27a2
+          ami: ami-797e451a
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-797e451a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        hvm:instance-store:
+          ami: ami-847843e7
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-847843e7
+          type: hvm
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-b5122bd6
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-b5122bd6
+          ami: ami-fe7d469d
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-fe7d469d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-c5132aa6
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c5132aa6
+          ami: ami-db7843b8
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-db7843b8
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-4e11282d
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-4e11282d
+          ami: ami-007f4463
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-007f4463
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-e1132a82
-          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-e1132a82
+          ami: ami-c87942ab
+          url: https://console.aws.amazon.com/ec2/home?region=ap-southeast-2#launchAmi=ami-c87942ab
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     eu-west-1:
       amd64:
-        hvm:ebs:
-          ami: ami-4b267f38
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-4b267f38
-          type: hvm
-          metadata: "20161130"
-          arch: amd64
         ebs:
-          ami: ami-ee257c9d
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-ee257c9d
+          ami: ami-738fa800
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-738fa800
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        ebs-io1:
-          ami: ami-b1257cc2
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-b1257cc2
-          type: paravirtual
-          metadata: "20161130"
+        hvm:ebs:
+          ami: ami-9797b0e4
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-9797b0e4
+          type: hvm
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-e4590097
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-e4590097
+          ami: ami-5289ae21
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-5289ae21
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        ebs-io1:
+          ami: ami-f296b181
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-f296b181
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-7b257c08
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-7b257c08
+          ami: ami-198aad6a
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-198aad6a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-81267ff2
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-81267ff2
+          ami: ami-5889ae2b
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-5889ae2b
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-ae2178dd
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-ae2178dd
+          ami: ami-0080a773
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-0080a773
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-f7217884
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-f7217884
+          ami: ami-0180a772
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-0180a772
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-8f277efc
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-8f277efc
+          ami: ami-e58cab96
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-e58cab96
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-18227b6b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-18227b6b
+          ami: ami-3a88af49
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-3a88af49
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-48277e3b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-48277e3b
+          ami: ami-1088af63
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-1088af63
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-902c75e3
-          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-902c75e3
+          ami: ami-e08bac93
+          url: https://console.aws.amazon.com/ec2/home?region=eu-west-1#launchAmi=ami-e08bac93
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     sa-east-1:
       amd64:
-        hvm:ebs:
-          ami: ami-322eb05e
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-322eb05e
-          type: hvm
-          metadata: "20161130"
-          arch: amd64
         ebs:
-          ami: ami-4e31af22
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-4e31af22
+          ami: ami-77c25a1b
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-77c25a1b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        hvm:ebs-io1:
-          ami: ami-5331af3f
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-5331af3f
+        hvm:ebs:
+          ami: ami-91cf57fd
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-91cf57fd
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-io1:
-          ami: ami-a631afca
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-a631afca
+          ami: ami-cbce56a7
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-cbce56a7
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        hvm:ebs-io1:
+          ami: ami-cfc159a3
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-cfc159a3
+          type: hvm
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-162cb27a
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-162cb27a
+          ami: ami-72c45c1e
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-72c45c1e
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-3833ad54
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-3833ad54
+          ami: ami-8ec25ae2
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-8ec25ae2
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-0f33ad63
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-0f33ad63
+          ami: ami-09c05865
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-09c05865
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-ed32ac81
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-ed32ac81
+          ami: ami-d4c159b8
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-d4c159b8
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-462fb12a
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-462fb12a
+          ami: ami-9ec25af2
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-9ec25af2
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-4f30ae23
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-4f30ae23
+          ami: ami-6dc05801
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-6dc05801
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-5134aa3d
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-5134aa3d
+          ami: ami-62c25a0e
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-62c25a0e
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-7632ac1a
-          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-7632ac1a
+          ami: ami-d3c159bf
+          url: https://console.aws.amazon.com/ec2/home?region=sa-east-1#launchAmi=ami-d3c159bf
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     us-east-1:
       amd64:
         hvm:ebs:
-          ami: ami-6cffc67b
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-6cffc67b
+          ami: ami-5b848b4c
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-5b848b4c
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs:
-          ami: ami-e0fcc5f7
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-e0fcc5f7
+          ami: ami-6a8a857d
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-6a8a857d
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        hvm:ebs-io1:
-          ami: ami-1ae7de0d
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-1ae7de0d
-          type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-io1:
-          ami: ami-8efec799
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-8efec799
+          ami: ami-9c87888b
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-9c87888b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
-        hvm:ebs-ssd:
-          ami: ami-11e4dd06
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-11e4dd06
+        hvm:ebs-io1:
+          ami: ami-e5848bf2
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-e5848bf2
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-1dfec70a
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-1dfec70a
+          ami: ami-37858a20
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-37858a20
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        hvm:ebs-ssd:
+          ami: ami-ce848bd9
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-ce848bd9
+          type: hvm
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-f3f8c1e4
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-f3f8c1e4
+          ami: ami-0b8f801c
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-0b8f801c
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-f7fdc4e0
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-f7fdc4e0
+          ami: ami-3f8e8128
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-3f8e8128
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-88ffc69f
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-88ffc69f
+          ami: ami-2d8d823a
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-2d8d823a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-02fdc415
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-02fdc415
+          ami: ami-088a851f
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-088a851f
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-28ffc63f
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-28ffc63f
+          ami: ami-e68689f1
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-e68689f1
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-9dfac38a
-          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-9dfac38a
+          ami: ami-f98d82ee
+          url: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-f98d82ee
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     us-west-1:
       amd64:
         hvm:ebs:
-          ami: ami-d40057b4
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-d40057b4
+          ami: ami-8e98ceee
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-8e98ceee
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs:
-          ami: ami-ef02558f
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-ef02558f
+          ami: ami-bc9dcbdc
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-bc9dcbdc
           type: paravirtual
-          metadata: "20161130"
-          arch: amd64
-        ebs-io1:
-          ami: ami-9c0057fc
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-9c0057fc
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-ca0f58aa
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-ca0f58aa
+          ami: ami-5299cf32
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-5299cf32
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        ebs-io1:
+          ami: ami-799bcd19
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-799bcd19
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-14005774
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-14005774
+          ami: ami-779acc17
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-779acc17
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-38035458
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-38035458
+          ami: ami-d898ceb8
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-d898ceb8
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-62035402
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-62035402
+          ami: ami-4d9bcd2d
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-4d9bcd2d
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-7f03541f
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-7f03541f
+          ami: ami-fb9acc9b
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-fb9acc9b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-a20354c2
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-a20354c2
+          ami: ami-109dcb70
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-109dcb70
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-2d04534d
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-2d04534d
+          ami: ami-db98cebb
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-db98cebb
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-71015611
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-71015611
+          ami: ami-869acce6
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-869acce6
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-e1015681
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-e1015681
+          ami: ami-fa9bcd9a
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-1#launchAmi=ami-fa9bcd9a
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     us-west-2:
       amd64:
         ebs:
-          ami: ami-64c86104
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-64c86104
+          ami: ami-2fd5604f
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-2fd5604f
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs:
-          ami: ami-9ef75efe
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-9ef75efe
+          ami: ami-93ea5ff3
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-93ea5ff3
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        ebs-io1:
-          ami: ami-adc960cd
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-adc960cd
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-io1:
-          ami: ami-d2f75eb2
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-d2f75eb2
+          ami: ami-07d66367
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-07d66367
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        ebs-io1:
+          ami: ami-6ed7620e
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-6ed7620e
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-27ca6347
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-27ca6347
+          ami: ami-0dd4616d
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-0dd4616d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-d1c960b1
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-d1c960b1
+          ami: ami-c1d560a1
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-c1d560a1
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         instance-store:
-          ami: ami-1cf45d7c
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-1cf45d7c
+          ami: ami-07e95c67
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-07e95c67
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-7ef75e1e
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-7ef75e1e
+          ami: ami-d6ee5bb6
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-d6ee5bb6
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-6cc9600c
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-6cc9600c
+          ami: ami-deee5bbe
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-deee5bbe
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-ecf25b8c
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-ecf25b8c
+          ami: ami-65d76205
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-65d76205
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-51f75e31
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-51f75e31
+          ami: ami-d5ea5fb5
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-d5ea5fb5
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-b4f55cd4
-          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-b4f55cd4
+          ami: ami-3dea5f5d
+          url: https://console.aws.amazon.com/ec2/home?region=us-west-2#launchAmi=ami-3dea5f5d
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
     eu-central-1:
       amd64:
         ebs:
-          ami: ami-c400c7ab
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-c400c7ab
+          ami: ami-0128e96e
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-0128e96e
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs:
-          ami: ami-c80ccba7
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-c80ccba7
+          ami: ami-9c27e6f3
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-9c27e6f3
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        hvm:ebs-io1:
-          ami: ami-210ccb4e
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-210ccb4e
-          type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         ebs-io1:
-          ami: ami-ed00c782
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-ed00c782
+          ami: ami-3027e65f
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-3027e65f
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        hvm:ebs-io1:
+          ami: ami-7c2aeb13
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-7c2aeb13
+          type: hvm
+          metadata: "20161214"
           arch: amd64
         ebs-ssd:
-          ami: ami-a700c7c8
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-a700c7c8
+          ami: ami-012bea6e
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-012bea6e
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:ebs-ssd:
-          ami: ami-b600c7d9
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-b600c7d9
+          ami: ami-342bea5b
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-342bea5b
           type: hvm
-          metadata: "20161130"
-          arch: amd64
-        instance-store:
-          ami: ami-660fc809
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-660fc809
-          type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: amd64
         hvm:instance-store:
-          ami: ami-a301c6cc
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-a301c6cc
+          ami: ami-0426e76b
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-0426e76b
           type: hvm
-          metadata: "20161130"
+          metadata: "20161214"
+          arch: amd64
+        instance-store:
+          ami: ami-6128e90e
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-6128e90e
+          type: paravirtual
+          metadata: "20161214"
           arch: amd64
       i386:
         ebs:
-          ami: ami-ed0fc882
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-ed0fc882
+          ami: ami-c929e8a6
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-c929e8a6
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-io1:
-          ami: ami-e40fc88b
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-e40fc88b
+          ami: ami-f624e599
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-f624e599
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         ebs-ssd:
-          ami: ami-9100c7fe
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-9100c7fe
+          ami: ami-0c2bea63
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-0c2bea63
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
         instance-store:
-          ami: ami-ae02c5c1
-          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-ae02c5c1
+          ami: ami-7427e61b
+          url: https://console.aws.amazon.com/ec2/home?region=eu-central-1#launchAmi=ami-7427e61b
           type: paravirtual
-          metadata: "20161130"
+          metadata: "20161214"
           arch: i386
   "14.10":
     ap-northeast-1:
